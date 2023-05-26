@@ -50,7 +50,7 @@
     width: 65px;
 }
 
-.success {
+#success {
     position: absolute;
-    height: 600px;
+    height: 650px;
 }
