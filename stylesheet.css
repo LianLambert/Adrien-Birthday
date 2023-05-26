@@ -25,31 +25,32 @@
     top: 0;
     left: 0;
     border: 1px green solid;
-    width: 900px;
+    width: 650px;
 }
 
 #knight1 {
     position: absolute;
-    left: 350px;
-    top: 435px;
-    width: 90px;
+    left: 253px;
+    top: 314px;
+    width: 65px;
 }
 
 #knight2 {
     position: absolute;
-    left: 0px;
-    top: 3px;
-    width: 90px;
+    left: -3px;
+    top: 1px;
+    width: 65px;
 }
 
 #correctmove {
     position: absolute;
-    left: 543px;
-    top: 338px;
-    height: 92px;
-    width: 95px;
+    left: 395px;
+    top: 246px;
+    height: 64px;
+    width: 65px;
 }
 
 .success {
     position: absolute;
+    width: 700px;
 }

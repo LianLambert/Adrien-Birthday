@@ -24,7 +24,7 @@ function dragOver(e) {
     e.preventDefault();
 }
 
-function drop(e) {
+function drop(e) {3
     knight1.classList.add("hide")
     knight2.classList.remove("hide");
     setTimeout(() => {
@@ -37,3 +37,4 @@ function drop(e) {
         });
     }, 500);
 }
+
