@@ -51,5 +51,7 @@
 }
 
 #success {
+    position: absolute;
     height: 650px;
+    left: -357px;
 }
