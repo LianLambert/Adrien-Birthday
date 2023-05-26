@@ -2,9 +2,28 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Boy</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jpeg">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 </head>
-<body>
-    p
+<body style="background-color: rgb(255, 156, 36)"></body>
+    <div class="super-container">
+        <h1 class="instructions">Hi Adrien!</h1>
+        <h2 class="instructions">Since you're no rook-ie at chess, test your skils and make the final move as white to reveal the surprise</h2>
+        <div class="puzzle">
+            <span class="wrap">
+                <img id="board" src="./images/BoardNoKnight.png" alt="Picture of a chess puzzle">
+                <img id="knight1" draggable="true" src="./images/Knight.png" alt="Picture of a knight piece">
+                <span id="correctmove">
+                    <img id="knight2" class="hide" src="./images/Knight.png" alt="Picture of a knight piece">
+                </span>
+                <img id="success" class="hide" src="./images/Success.jpeg" alt="Picture of a cats celebrating a birthday">
+            </span>
+        </div>
+        <script src="./java.js"></script>
+    </div>
 </body>
 </html>
